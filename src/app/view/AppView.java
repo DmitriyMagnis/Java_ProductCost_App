@@ -11,7 +11,7 @@ public class AppView {
         scanner.useLocale(Locale.ENGLISH);
         System.out.print("Enter product quantity, pcs.: ");
         String quantity = scanner.nextLine().trim();
-        System.out.print("Enter product price, USD: ");
+        System.out.print("Enter product price: ");
         String price = scanner.nextLine().trim();
         scanner.close();
 
