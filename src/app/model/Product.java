@@ -1,4 +1,6 @@
-package app;
+package app.model;
+
+import app.utils.Constants;
 
 public class Product {
     String name;
